@@ -8,4 +8,4 @@ script2: svm is for data classification by using svm.
 
 script3: randomForest is for data classification by using randomForest.
 
-Input files in these three scripts can be changed by doing different task.
+Input files in these three scripts can be changed by doing different tasks.
