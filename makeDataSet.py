@@ -52,7 +52,7 @@ train = np.column_stack((tf,df['class']))
 # for binary classification(Health or Not Health), please use "is_health_related?"
 
 train = np.row_stack((featureArray_full,train))
-# test = np.row_stack((featureArray,test))
+
 
 np.savetxt('train.csv',train, fmt="%s",delimiter = ',',encoding='UTF-8')
 
